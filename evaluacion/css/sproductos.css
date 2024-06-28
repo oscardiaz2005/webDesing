@@ -1,0 +1,92 @@
+@font-face {
+    font-family:titulo ;
+    src: url('../fonts/Citylist.ttf');
+}
+
+#header{
+    border: rgb(90, 189, 189) solid 5px;
+    border-radius: 20px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#titulo{
+    font-family: titulo;
+    font-size: 49px;
+    color: darkblue;
+}
+.letra{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    margin-left:40px ;
+    margin-right: 40px;
+
+}
+.shuellas{
+    display: flex;
+    flex-direction: column;
+}
+.huellas{
+    height: 80px;
+    width: 80px;
+}
+.perrowcat{
+    height: 200px;
+    width: 200px;
+}
+
+.links{
+    margin-top: 5px;
+    background-color: rgb(90, 189, 189);
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    border: 2px  darkblue solid;
+
+}
+nav{
+    margin-right:50px ;
+    
+}
+
+
+a{text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+
+}
+
+#carrito{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 15px;
+    font-family: registro;
+}
+#produc{
+    height: 250px;
+    width: 30%;
+    background-color: rgb(90, 189, 189);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#productos{
+    display: flex;
+    flex-wrap: wrap;
+}
