@@ -1,0 +1,130 @@
+body{
+    background-color: black;
+    padding: 50px;
+    
+   
+}
+
+#container{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border: solid 2px black;
+   
+}
+#contenedor{
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: start;
+    justify-content: space-between;    
+}
+    
+
+
+.jeremy{
+    height: 380px;
+    width: 20%;
+    background-color:  rgb(31, 22, 36);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    grid-area: 1;
+    border-radius: 20px;
+}
+
+.cajas{
+    height: 180px;
+    width: 30%;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.abajo{
+    height: 140px;
+    background-color: rgb(31, 22, 36);
+    width: 100%;
+    border-radius: 17px;
+    padding: 10px;
+}
+#orange{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(241, 94, 40);
+
+}
+#blue{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(76, 76, 255);
+
+
+}
+#red{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(255, 30, 0);
+
+
+}
+#green{
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(54, 255, 54);
+
+
+}
+#purple{
+    display: flex;
+    align-items: flex-end;
+    background-color: blueviolet;
+    
+
+
+}
+#yellow{
+    display: flex;
+    align-items: flex-end;
+    background-color: yellow;
+
+
+}
+
+.up{
+    height: 280px;
+    width: 100%;
+    border-radius: 17px;
+    background-color: rgb(155, 92, 214);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    
+    align-items: center;
+    
+
+}
+#face{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(78, 78, 78);
+    align-self: self-start;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    background-image: url('../img/icons8-jake.gif');
+    background-size: cover;
+}
+
+
+
+
+
+
