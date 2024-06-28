@@ -1,0 +1,138 @@
+@font-face {
+    font-family:titles ;
+    src: url('../fonts/Super\ Boys.ttf');
+}
+@font-face {
+    font-family:logo;
+    src: url('../fonts/Letterland.otf');
+}
+@font-face {
+    font-family:registro;
+    src: url('../fonts/Sunday\ Burger.otf');
+}
+
+a{
+    text-decoration: none;
+}
+#header{
+    height: 90px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between ;
+    border-bottom: solid black 2px;
+    
+}
+
+
+.register{
+    background-color: lightgreen;
+    height: 70px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo{
+  
+    height: 50px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+#menugeneral{
+    background-color: rgb(59, 141, 59);
+    height: 50px;
+    }
+    
+#menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.titprom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+  
+}
+
+
+body{background-color:yellowgreen;}
+
+    
+#section2{
+
+       margin-top: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    table{
+        background-color: rgb(248, 248, 209);
+        border: 5px darkgreen solid;
+    }
+    tr{
+        border: solid 2px darkgreen ;
+        font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    td{
+        border-right: solid 2px darkgreen ;
+        border-top: solid 2px darkgreen; 
+        border-bottom: solid 2px darkgreen;
+        
+        
+        
+    }
+    th{
+        background-color: lightgreen;
+
+    }
+
+    #footer{
+        height: 50px;
+        background-color: rgb(59, 141, 59);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    
+    }
+    #imglogo{
+        background-image: url('../img/Captura\ de\ pantalla\ \(2517\).png');
+        height: 100px;
+        width: 100px;
+        background-size: cover;
+    }
+    
+    #estiloxd{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    
+    }

@@ -1,0 +1,193 @@
+@font-face {
+    font-family:titles ;
+    src: url('../fonts/Super\ Boys.ttf');
+}
+@font-face {
+    font-family:logo;
+    src: url('../fonts/Letterland.otf');
+}
+@font-face {
+    font-family:registro;
+    src: url('../fonts/Sunday\ Burger.otf');
+}
+body{background-color:yellowgreen;}
+a{
+    text-decoration: none;
+}
+#header{
+    height: 90px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between ;
+    border-bottom: solid darkgreen 2px;
+    
+}
+
+#footer{
+    height: 50px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.register{
+    background-color: lightgreen;
+    height: 70px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo{
+  
+    height: 50px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+#menugeneral{
+    background-color: rgb(59, 141, 59);
+    height: 50px;
+    }
+    
+#menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.titprom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+ 
+}
+#imglogo{
+    background-image: url('../img/Captura\ de\ pantalla\ \(2517\).png');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+#estiloxd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+#contain{
+
+    
+    display: flex;
+    flex-direction: column;
+padding: 30px;
+    
+}
+h1{
+    font-size: 30px;
+    font-family: registro;
+}
+#nosotros{ background-color: lightgreen;
+    width: 60%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+#vision{
+    background-color: lightgreen;
+    width: 60%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+
+#mision{ 
+    background-color: lightgreen;
+    width: 60%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+ }
+
+
+#contenedor{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#contenedor2{
+  
+  padding: 10px;
+   margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+#contenedor3{
+  
+    margin-top: 30px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+h2{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+#img{
+    height: 400px ;
+    background-color: gold;
+    width: 30% ;
+    border-radius: 20px;
+    background-image: url('../img/vision3.webp');
+    background-size: cover;
+
+}
+#img2{
+    height: 400px ;
+    background-color: gold;
+    width: 30% ;
+    border-radius: 20px;
+    background-image: url('../img/nosotros.jpg');
+    background-size: cover;
+}
+#img3{
+    height: 400px ;
+    background-color: gold;
+    width: 30% ;
+    border-radius: 20px;
+    background-image: url('../img/mision.jpg');
+    background-size: cover;
+}

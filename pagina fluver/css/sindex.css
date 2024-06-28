@@ -1,0 +1,402 @@
+
+@font-face {
+    font-family:titles ;
+    src: url('../fonts/Super\ Boys.ttf');
+}
+@font-face {
+    font-family:logo;
+    src: url('../fonts/Letterland.otf');
+}
+@font-face {
+    font-family:registro;
+    src: url('../fonts/Sunday\ Burger.otf');
+}
+body{background-color:yellowgreen;}
+#header{
+    height: 90px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between ;
+    border-bottom: solid darkgreen 2px;
+    
+}
+a{
+    text-decoration: none;
+}
+#footer{
+    height: 50px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#carrito{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    font-size: 15px;
+    font-family: registro;
+}
+
+#conprom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.titprom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+    
+}
+.prom{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+   
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+}
+.prom2{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+  
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.prom3{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.prom4{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    }
+.prom5{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+ 
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.prom6{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.prom7{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.prom8{
+    height: 200px;
+    width: 40%;
+    margin: 20px;
+    border-radius: 30px;
+
+    background-color: lightgreen;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.register{
+    background-color: lightgreen;
+    height: 70px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.imgprom{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/manzanaa.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.imgprom2{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/pera2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom3{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/papa.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom4{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/zanahoria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom5{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/banano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom6{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/granadilla.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom7{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/tomate.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgprom8{
+    height: 180px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url('../img/cebolla.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.tprom{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom1{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom2{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom3{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom4{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom5{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom6{
+    height: 180px;
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom7{
+    height: 180px;
+    width: 40%;
+   
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.tprom8{
+    height: 180px;
+    width: 40%;
+    
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.logo{
+  
+    height: 50px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+
+#menugeneral{
+    background-color: rgb(59, 141, 59);
+    height: 50px;
+    }
+    
+#menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#imglogo{
+    background-image: url('../img/Captura\ de\ pantalla\ \(2517\).png');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+#estiloxd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}

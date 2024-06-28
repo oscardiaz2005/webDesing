@@ -1,0 +1,388 @@
+@font-face {
+    font-family:titles ;
+    src: url('../fonts/Super\ Boys.ttf');
+}
+@font-face {
+    font-family:logo;
+    src: url('../fonts/Letterland.otf');
+}
+@font-face {
+    font-family:registro;
+    src: url('../fonts/Sunday\ Burger.otf');
+}
+body{background-color:yellowgreen;}
+
+
+#header{
+    height: 90px;
+    background-color: rgb(59, 141, 59);
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    align-items: center;
+    justify-content:space-between ;
+    border-bottom: solid darkgreen 2px;
+    
+}
+
+
+.register{
+    background-color: lightgreen;
+    height: 70px;
+    width: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.logo{
+  
+    height: 50px;
+    width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 40px;
+}
+#menugeneral{
+    background-color: rgb(59, 141, 59);
+    height: 50px;
+    }
+    
+#menu{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+}
+.titprom{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgreen;
+
+}
+
+#carrito{
+    background-color:lightgreen;
+    height: 50px;
+    font-size: 15px;
+    font-family: registro;
+}
+
+#productos{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#frutas{
+    background-color: lightgreen;
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    border: solid darkgreen 2px;
+    border-radius: 20px;
+    
+    
+    
+}
+.imagenmain{
+    background-image: url('../img/frutas.avif');
+    height: 150px;
+    width: 90%;
+    background-size: contain;
+}
+.imagenmain2{
+    background-image: url('../img/vegetales.jfif');
+    height: 150px;
+    width: 90%;
+    background-size: contain;
+}
+.imagenmain3{
+    background-image: url('../img/legumbres.jfif');
+    height: 150px;
+    width: 90%;
+    background-size: contain;
+}
+.imagenmain4{
+    background-image: url('../img/carnes.jfif');
+    height: 150px;
+    width: 90%;
+    background-size: contain;
+}
+.imagenmain5{
+    background-image: url('../img/granja.jfif');
+    height: 150px;
+    width: 90%;
+    background-size: contain;
+}
+#summary{
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+
+#xd{ background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content:center ;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: solid darkgreen 2px;
+    border-radius: 10px;
+    
+}
+
+#banano{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+
+}
+#manzana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+
+    
+}
+#mandarina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+
+    
+}
+#naranja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+
+}
+#coco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.imagen{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/banano.jpg');
+    background-size: cover;
+}
+.imagen2{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/manzanaa.jfif');
+    background-size: cover;
+}
+.imagen3{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/mandarina.jpg');
+    background-size: cover;
+}
+.imagen4{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/naranja.jpg');
+    background-size: cover;
+}
+.imagen5{
+    height:200px;
+    width: 90%;
+    background-image: url('../img/coco.webp');
+    background-size: cover;
+}
+
+.imagenv{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/lechuga.jfif');
+    background-size: cover;
+}
+.imagenv2{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/zanahoria.jpg');
+    background-size: cover;
+}
+.imagenv3{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/tomate.webp');
+    background-size: cover;
+}
+.imagenv4{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/platano.jpg');
+    background-size: cover;
+}
+.imagenv5{
+    height:200px;
+    width: 90%;
+    background-image: url('../img/cebolla.jpg');
+    background-size: cover;
+}
+
+.imagenl{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/frijol.jfif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.imagenl2{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/garbanzo.jfif');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.imagenl3{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/lentejas.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.imagenl4{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/cacahuat.jfif');
+    background-size: cover;
+}
+.imagenl5{
+    height:200px;
+    width: 90%;
+    background-image: url('../img/habas.jfif');
+    background-size: cover;
+}
+
+.imagenc{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/pechuga.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.imagenc2{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/pernil.jfif');
+    background-size: cover;
+}
+.imagenc3{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/carne\ de\ cerdo.jfif');
+    background-size: cover;
+}
+.imagenc4{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/pescado.jfif');
+    background-size: cover;
+}
+.imagenc5{
+    height:200px;
+    width: 90%;
+    background-image: url('../img/carne\ de\ res.jfif');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.imageng{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/leche.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.imageng2{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/queso.jpg');
+    background-size: cover;
+}
+.imageng3{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/huevos.jfif');
+    background-size: cover;
+}
+.imageng4{
+    height: 200px;
+    width: 90%;
+    background-image: url('../img/yogurt.avif');
+    background-size: cover;
+}
+.imageng5{
+    height:200px;
+    width: 90%;
+    background-image: url('../img/maiz.jfif');
+    background-size: auto;
+}
+a{
+    text-decoration: none;
+}
+#imglogo{
+    background-image: url('../img/Captura\ de\ pantalla\ \(2517\).png');
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+
+#estiloxd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
