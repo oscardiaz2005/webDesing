@@ -1,0 +1,81 @@
+body{
+    background-image: url('../imagenes/comics-1239698.jpg');
+    background-size: cover;
+    }
+    
+
+.blue{
+    height: 100px;
+    background-color: rgba(0,76,153,255);
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+
+}
+
+#logo{
+    height: 100px;
+    width: 200px;
+    float: right;
+}
+
+.izquierda{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.derecha{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+
+    
+}
+
+.cuadro{
+    float: right;
+    background-color: rgb(0, 110, 110);
+    height: 40px;
+    padding-top: 30px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.acc{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.derecha2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 255, 67);
+    float: right;
+    margin-right: 30px;
+    margin-top: 40px;
+    
+
+    
+}
+
+#icon{
+    height: 20px;
+    width: 20px;
+}
+#icon2{
+    height: 30px;
+    width: 30px;
+    margin-right: 30px;
+}

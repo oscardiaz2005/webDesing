@@ -1,0 +1,62 @@
+body{
+    background-image: url('../imagenes/comics-1239698.jpg');
+    background-size: cover;
+    }
+    
+
+#header{
+    background-color: black;
+    height: 30px;
+    padding-top: 30px;
+   padding-bottom: 90px;
+}
+
+.riley{
+    font-family: sans-serif;
+    color: #FCD272;
+    font-size: 15px;
+
+
+    margin-left: 40px;
+    position: relative;
+  left: 1160px;
+  
+}
+.film{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 40px;
+
+position: relative;
+  left: 1160px;
+
+}
+#izquierda{
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+
+}
+#izquierdad{
+    font-family: sans-serif;
+    color: #FCD272;
+    font-size: 13px;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+    bottom: 30px;
+}
+#LOGOS{
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    bottom: 34px;
+    left: 20px;
+    margin-left: 10px;
+}

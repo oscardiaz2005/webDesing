@@ -1,0 +1,51 @@
+body{
+    background-image: url('../imagenes/comics-1239698.jpg');
+    background-size: cover;
+    }
+    
+
+body{
+    padding-left: 60px;
+}
+
+#header{background-color: white;
+height: 130px;}
+.logo{
+    height: 130px;
+    width: 100px;
+    float: right;
+    margin-right: 60px;
+}
+#izquierda1{
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 40px;
+
+}
+
+#izquierda{
+    float: left;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logi{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+
+}
+
+#log{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-left: 400px;
+}
