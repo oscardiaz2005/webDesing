@@ -1,0 +1,467 @@
+@font-face {
+    font-family:logo ;
+    src: url('../fonts/Letterland.otf');
+}
+@font-face {
+    font-family: tipopintura;
+    src: url('../fonts/Unfair\ Shares\ Regular.ttf');
+}
+
+body{
+    background-color: #1e2a18;
+}
+header{
+height: 150px;
+background-color: #000500;
+display: flex;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+
+}
+
+footer{
+    background-color: #000500;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+#fc{
+    display: flex;
+    align-self: flex-end;
+}
+#redes{
+    color: #ada375;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#mapa{
+    border-radius: 10px;
+}
+
+label{
+    text-decoration: none;
+    color: #ada375;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#logo{
+    color: #ada375;
+    font-size: 25px;
+    font-family: logo;
+    align-self: flex-start;
+    align-self: center;
+    cursor: pointer;
+
+}
+A{
+    text-decoration: none;
+    color: #ada375;
+}
+
+li {
+transition: 0.5s;
+    list-style: none;
+}
+
+.enlaces_menu li :hover{
+    background-color: #f7f3e35d;    
+    }
+    .enlaces_menu{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        align-self: flex-end;
+        
+    }
+    h3{
+        font-size: 40px;
+        font-family: tipopintura;
+        color: #ada375;
+        margin-left: auto;
+        text-align: center;
+        margin-top: 20px;
+     
+   
+    }
+    #containerfoto{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        
+
+    }
+
+    #cajafoto{
+        height: 400px;
+        width: 40%;
+        background-color: #ada375;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #xdxd{
+        height: 50%;
+        width: 50%;
+    }
+    div a{
+        color: rgb(255, 0, 0);
+    }
+    h4{
+        font-size: 20px;
+    }
+
+
+
+
+
+ @media screen and (min-width: 280px) and (max-width: 490px) {
+        header{
+            height: auto;
+            background-color: #000500;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 30px;
+            
+            }
+            #logo{
+                color: #ada375;
+                font-size: 20px;
+                font-family: logo;
+                align-self: flex-start;
+                align-self: center;
+            
+            }
+            A{
+                text-decoration: none;
+                color: #ada375;
+                font-size: 15px;
+            }
+            .enlaces_menu{
+                flex-direction: column;
+                margin-bottom: 20px;
+                padding-left: 80px;
+                width: 100%;
+                align-items: center;
+                margin-top: 20px;
+            }
+    
+             footer{
+                background-color: #000500;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-self: flex-end;
+                
+            
+            }
+            #fc{
+                display: flex;
+                align-self: flex-end;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            #redes{
+                color: #ada375;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 5px;
+                font-size: 15px;
+            }
+            
+            #mapa{
+                border-radius: 10px;
+            }
+            label{
+                text-decoration: none;
+                color: #ada375;
+                margin-top: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            h3{
+                font-size: 40px;
+                font-family: tipopintura;
+                color: #ada375;
+                margin-left: auto;
+                text-align: center;
+                margin-top: 20px;
+             
+           
+            }
+            #containerfoto{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                
+        
+            }
+        
+            #cajafoto{
+                height: 420px;
+                width: 90%;
+                background-color: #ada375;
+                margin: 10px;
+                border-radius: 10px;
+                padding: 5px;
+                overflow: scroll;
+            }
+}
+
+
+
+@media screen and (min-width: 491px) and (max-width: 570px) {
+    header{
+        padding-top: 30px;
+        height: auto;
+        background-color: #000500;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        padding-left: 5px;
+        padding-right: 10px;
+        
+        }
+        #logo{
+            color: #ada375;
+            font-size: 25px;
+            font-family: logo;
+            align-self: flex-start;
+            align-self: center;
+        
+        }
+        ul{
+            margin-top: 2px;
+        }
+        A{
+            text-decoration: none;
+            color: #ada375;
+            font-size: 18px;
+            margin-top: 20px;
+        
+        }
+        .enlaces_menu{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            margin-bottom: 20px;
+            margin-top:10px ;
+            align-self: flex-end;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+    
+
+         footer{
+            background-color: #000500;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-self: flex-end;
+           
+        
+        }
+        #fc{
+            display: flex;
+            align-self: flex-end;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+        }
+        #redes{
+            color: #ada375;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 5px;
+            font-size: 15px;
+        }
+        
+        #mapa{
+            border-radius: 10px;
+        }
+        label{
+            text-decoration: none;
+            color: #ada375;
+            margin-top: 5px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        h3{
+            font-size: 40px;
+            font-family: tipopintura;
+            color: #ada375;
+            margin-left: auto;
+            text-align: center;
+            margin-top: 20px;
+         
+       
+        }
+        #containerfoto{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            
+    
+        }
+    
+        #cajafoto{
+            height: 400px;
+            width: 90%;
+            background-color: #ada375;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    
+    }
+
+
+    @media screen  and (min-width: 571px) and (max-width :890px) {
+        header{
+            width: 100%;
+            height: auto;
+            background-color: #000500;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-around;
+            padding-left: 5px;
+            padding-right: 10px;
+            padding-top: 10px;
+            
+            }
+            #logo{
+                color: #ada375;
+                font-size: 30px;
+                font-family: logo;
+                align-self: flex-start;
+                align-self: center;
+                margin-top: 10px;
+            
+            }
+            A{
+                text-decoration: none;
+                color: #ada375;
+                font-size: 15px;
+            }
+            ul{
+                margin-top: 2px;
+            }
+            .enlaces_menu{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                justify-content: space-around;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 10px;   
+            }
+            footer{
+                background-color: #000500;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            
+            }
+            #fc{
+                display: flex;
+                align-self: flex-end;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 5px;
+            }
+            #redes{
+                color: #ada375;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 5px;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            
+            #mapa{
+                border-radius: 10px;
+            }
+            label{
+                font-size: 15px;
+                color: #ada375;
+                margin-top: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            h3{
+                font-size: 40px;
+                font-family: tipopintura;
+                color: #ada375;
+                margin-left: auto;
+                text-align: center;
+                margin-top: 20px;
+             
+           
+            }
+            #containerfoto{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 30px;
+                
+        
+            }
+        
+            #cajafoto{
+                height: 400px;
+                width: 90%;
+                background-color: #ada375;
+                margin: 10px;
+                border-radius: 10px;
+            }
+    }     
